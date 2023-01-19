@@ -1,0 +1,157 @@
+.catimage {
+  height: 390px;
+  width: 230px;
+  transform: rotate(-20deg);
+}
+
+#title {
+  background-color: #51C4D3;
+}
+
+.h11 {
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-size: 2.9rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: "Ubuntu", sans-serif;
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+.con {
+  padding: 3% 15% 3% 15%;
+}
+
+.navnav {
+  padding-bottom: 4.5rem;
+}
+
+.nav-item{
+  padding: 0 14px;
+}
+
+.D-button {
+  margin: 5% 3% 5% 0;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Ubuntu";
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/*  Features Section  */
+
+#features {
+  padding: 7% 15%;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.Ubuntu {
+  font-family: 'Otomanopee One', sans-serif;
+}
+
+.grey {
+  color: #8f8f8f;
+}
+
+.icon {
+  color: #962D2D;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #DE8971;
+}
+
+/* Testimonials Section */
+
+.kitty {
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #BEAEE2;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.test {
+  font-family: "Montserrat";
+  font-size: 2.4rem;
+  line-height: 1.5;
+}
+
+#press {
+  text-align: center;
+  background-color: #BEAEE2;
+  padding-bottom: 3%;
+}
+
+.class-logo {
+  width: 15%;
+  margin: 20px 20px 50px 20px;
+}
+
+/*                Pricing Section             */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/*      CTA Section       */
+
+#cta {
+  background-color: #51C4D3;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.last-sec {
+  line-height: 1.5;
+  font-size: 3.5rem;
+}
+
+/* Footer Section */
+
+#footer1 {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.social-icon {
+  padding: 30px 20px;
+}
+
+.copyright {
+  padding: 30px 10px;
+}
+
+@media (max-width: 1028px) {
+  .catimage {
+    position: static;
+    transform: rotate(0deg);
+}
